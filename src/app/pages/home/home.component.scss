@@ -4,3 +4,32 @@
    background-size: cover;
    background-position: 100% 52%;    
 }
+
+
+.types-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+
+   .types-flex-2{
+      display: flex;
+      align-items: center;
+      padding: 5rem;
+
+     
+   }
+
+   p{
+      color:#fff;
+   }
+
+   ul{
+      li{
+      color:#fff;
+
+      }
+   }
+
+}
+
+

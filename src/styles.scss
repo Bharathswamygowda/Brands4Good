@@ -1,45 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
---primary-color: #12122a; /* Blue color */
---secondary-color: #29ffc6; /* Yellow color */
---blue: #032175;
---white: #fff;
---yellow :#F37021;
---white : #FFFFFF;
---deepred :#691C32;
-
-/* Define your gradient here */
+  --primary-color: #f37021; /* Blue color */
+  --secondary-color: #691c32; /* Yellow color */
+  /* Define your gradient here */
 }
 
-.content__heading{
-    color: var(--yellow);
-}
-.content__section{
-    background-color: var(--yellow);
-    color: #fff;
-    padding: 5rem;
-}
-.content__section h3{
-    color: var(--deepred);
-}
-.content__section_second{
-    background-color: var(--deepred);
-    color: #fff;
-    padding: 5rem;
-}
-.content__section_second h3{
-    color: var(--yellow);
-}
-img{
-    width: 100%;
-    height: 400px
-}
-.content_display {
-    display: flex;
-    flex-wrap: wrap;
+.color-primary {
+  color: #f37021;
 }
 
-.box {
-    flex: 1 40%; 
+.color-secondary {
+  color: #691c32;
+}
+
+.bg-color-primary {
+  background-color: #f37021 !important;
+}
+
+.bg-color-secondary {
+  background-color: #691c32;
+}
+
+.common-space{
+          padding: 3rem 0;
 }
