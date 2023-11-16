@@ -9,6 +9,22 @@
         "content": "All organizations have a business plan but, less than 15% have a clear growth strategy that positions them to win in the market. We work closely with CEO’s & founders to help them create winning growth strategies around the choices of ‘where to play’ and ‘how to win’. The approach we use brings together leading edge strategic tools, creativity and design thinking methodologies to create an actionable strategy that maximizes the growth potential of the business."
       }
     ],
+    "heading": "Areas of consulting in detail:",
+    "consulting":[
+      {"content": "Creating a shared Understanding of 'Where are we today'"},
+      {"content": "Co-creating a ‘winning aspiration’ for the business."},
+      {"content": "Defining 'Where do we want to play'"},
+      {"content": "Defining 'How will we win'"},
+      {"content": "What existing capabilities do we have that we can leverage / enhance."},
+      {"content": "What new capabilities do we need to build."},
+      {"content": "Crafting OKR’s to translate strategy into everyday actions for the business"},
+      {"content": "Learning from implementation and sharpening / pivoting the strategy."}
+    ],
+    "examples":[
+      {"content": "Algida Turkey ice cream strategy"},
+      {"content": "Lipton Market Development Model"},
+      {"content": "LXL Ideas Strategy"}
+        ],
     "image": "./assets/images/img1.jpg"
   },
   {
@@ -18,6 +34,23 @@
         "content": "Iconic brands, that consumers can’t help but fall in love with, and pay a premium for, are one of the biggest drivers of share holder value. Iconic Brands are a repository of not merely functional characteristics but of meaning and value. We work with CMO’s and their brand teams to help them craft Iconic brand positioning that infuses meaning into their brands and deploy them brilliantly in the market."
       }
     ],
+    "heading": "Crafting Iconic brands:",
+    "consulting":[
+      {"content": "Brand Audit facilitation"},
+      {"content": "Consumer / Social / environmental insight mining"},
+      {"content": "Brand Architecture"},
+      {"content": "Iconic brand positioning"},
+      {"content": "Identifying &amp; nurturing Distinctive Brand Assets"},
+      {"content": "MVP co-creation &amp; testing"},
+      {"content": "Judging communication &amp; design"}
+    ],
+    "examples":[
+      {"content": "Paddle Pop Indonesia / SEA campaign"},
+      {"content": "Lipton Arabia Ramadan Campaign"},
+      {"content": "Brooke Bond Taj Mahal"},
+      {"content": "Magnum Turkey"}
+    ],
+    
     "image": "./assets/images/img1.jpg"
   },
   {
@@ -26,6 +59,22 @@
       {
         "content": "Innovations are the life blood of any organization and an engine for sustainable competitive growth. However over 90% of innovations fail in the market. We work with organizations, using agile innovation methodologies, to take the ‘luck out of innovation’ and dramatically increase the odds of success. Agile innovation put’s the consumer at the heart of the innovation process, has tools and frameworks to understand ‘consumer jobs’ & how an organization can use its capabilities to deliver superior solutions."
       }
+    ],
+    "heading": "Agile Innovation:",
+    "consulting":[
+      {"content": "Brand Audit facilitation"},
+      {"content": "Consumer / Social / environmental insight mining"},
+      {"content": "Brand Architecture"},
+      {"content": "Iconic brand positioning"},
+      {"content": "Identifying &amp; nurturing Distinctive Brand Assets"},
+      {"content": "MVP co-creation &amp; testing"},
+      {"content": "Judging communication &amp; design"}
+    ],
+    "examples":[
+      {"content": "Paddle Pop Indonesia / SEA campaign"},
+      {"content": "Lipton Arabia Ramadan Campaign"},
+      {"content": "Brooke Bond Taj Mahal"},
+      {"content": "Magnum Turkey"}
     ],
     "image": "./assets/images/img1.jpg"
   }

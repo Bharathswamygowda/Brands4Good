@@ -9,6 +9,8 @@ import { LoaderComponent } from './layout/loader/loader.component';
 import { HeaderModalComponent } from './modal/header-modal/header-modal.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { DetailsComponent } from './pages/details/details.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { DetailsComponent } from './pages/details/details.component';
     FooterComponent,
     LoaderComponent,
     HeaderModalComponent,
-    DetailsComponent
+    DetailsComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

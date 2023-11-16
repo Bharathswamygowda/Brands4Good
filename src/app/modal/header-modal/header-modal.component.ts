@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
+import {  Router } from '@angular/router';
 
 @Component({
   selector: 'app-header-modal',
@@ -16,9 +17,26 @@ export class HeaderModalComponent {
 
   constructor(
     private ActiveModal : NgbActiveModal,
+    private router: Router,
   ){
   }
 
+  navigate(item:any){
+    console.log(item.id)
+    if(item.id === '01'){
+      this.router.navigate([''])
+    }
+    else if(item.id === '02'){
+      this.router.navigate(['about'])
+    }
+
+    else if(item.id === '03'){
+      this.router.navigate(['contact'])
+    }
+
+    this.dismiss()
+
+  }
 
   dismiss(){
     this.ActiveModal.close();

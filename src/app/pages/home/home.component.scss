@@ -1,8 +1,10 @@
 #banner {
-  background-image: url("/assets/images/banner.jpg");
+  // background-image: url("/assets/images/banner.jpg");
   height: 500px;
   background-size: cover;
-  background-position: 100% 52%;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .types-grid {

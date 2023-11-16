@@ -5,7 +5,7 @@
           <img src="./assets/images/logo-white.svg"/>
 
     <ul class="ms-3">
-      <li *ngFor="let item of menuItem" [class]="item.class">
+      <li *ngFor="let item of menuItem" [class]="item.class" (click)="navigate(item)">
         {{item.name}}
       </li>
     </ul>
