@@ -1,0 +1,20 @@
+  <i (click)="dismiss()" class="fa-sharp fa-solid fa-circle-xmark close"></i>
+
+<div class="menu-container">
+  <div class="menu-items">
+          <img src="./assets/images/logo-white.svg"/>
+
+    <ul class="ms-3">
+      <li *ngFor="let item of menuItem" [class]="item.class">
+        {{item.name}}
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="menu-video">
+
+  </div>
+
+
+</div>

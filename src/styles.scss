@@ -1,27 +1,93 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import "animate.css/animate.css";
 :root {
+  --white: #fff;
   --primary-color: #f37021; /* Blue color */
   --secondary-color: #691c32; /* Yellow color */
+  --black: #000; /* Yellow color */
+
   /* Define your gradient here */
 }
 
+body {
+  font-size: 1.2rem !important;
+  overflow-x: hidden;
+}
+
 .color-primary {
-  color: #f37021;
+  color: var(--primary-color);
 }
 
 .color-secondary {
-  color: #691c32;
+  color: var(--secondary-color);
+}
+
+.color-white {
+  color: var(--white);
 }
 
 .bg-color-primary {
-  background-color: #f37021 !important;
+  background-color: var(--primary-color);
 }
 
 .bg-color-secondary {
-  background-color: #691c32;
+  background-color: var(--secondary-color);
 }
 
-.common-space{
-          padding: 3rem 0;
+.common-space {
+  padding: 4rem 0;
+}
+
+// button
+
+.custom-btn {
+  text-decoration: none;
+  appearance: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  max-height: 50px;
+  padding: 22px 40px;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out 0.1s;
+  z-index: 1;
+  span {
+    z-index: 2;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    z-index: -1;
+  }
+}
+
+.style-01,
+.style-01:focus,
+.style-01:active,
+.style-01:visited {
+  border: 4px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  &:before {
+    width: 0;
+    height: 100%;
+    right: 0;
+    transition: width 0.5s ease-in-out;
+  }
+  &:hover {
+    cursor: pointer;
+    color: #000;
+    &:before {
+      width: 100%;
+      left: 0;
+      right: auto;
+    }
+  }
 }

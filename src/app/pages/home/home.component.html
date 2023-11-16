@@ -7,7 +7,7 @@
   </div>
 </section>
 
-<section id="conent-description" class="common-space">
+<section id="content-description" class="common-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -15,7 +15,11 @@
           Business Strategy, Iconic Branding & Agile innovation consulting
         </h1>
         <p class="mb-0">
-          Our purpose is to help business, brands and people realize their full growth potential and make a positive impact on the world. We work with CEO’s, CMO’s and board teams on three key verticals of business growth strategy, brand positioning & agile innovation and help them unlock the full growth potential of their business. 
+          Our purpose is to help business, brands and people realize their full
+          growth potential and make a positive impact on the world. We work with
+          CEO’s, CMO’s and board teams on three key verticals of business growth
+          strategy, brand positioning & agile innovation and help them unlock
+          the full growth potential of their business.
         </p>
       </div>
     </div>
@@ -23,57 +27,56 @@
 </section>
 
 <section id="types">
-  <div class="types-grid">
-    <div class="types-flex-1">
-      <img class="img-fluid" src="./assets/images/img1.jpg" />
-    </div>
 
-    <div class="types-flex-2 bg-color-secondary">
-      <div>
-        <h2 class="color-primary">Business Growth Strategy</h2>
-        <p>
-          Strategy and planning are complimentary to each other, not a substitute for each other ! Strategy is a set of integrated actions that help you win in the segments where you decide to play. Planning is a set of sequential actions to get things. 
-        </p>
+    <div [class]="isEven ? 'row align-items-center types-grid bg-color-secondary' : 'row align-items-center types-grid bg-color-primary'"  *ngFor="let item of types; even as isEven">
 
-        <p>All organizations have a business plan but, less than 15% have a clear growth strategy that positions them to win in the market. We work closely with CEO’s & founders to help them create winning growth strategies around the choices of ‘where to play’ and ‘how to win’. The approach we use brings together leading edge strategic tools, creativity and design thinking methodologies to create an actionable strategy that maximizes the growth potential of the business. 
-        </p>
-
+      <div [class]="isEven ? 'col-lg-6 p-0' : 'col-lg-6 order-lg-2 p-0' ">
+        <img class="img-fluid" [src]="item.image" />
       </div>
-    </div>
 
-    <div class="types-flex-2 bg-color-primary">
-      <div>
-        <h2 class="color-secondary">Iconic Branding</h2>
-        <p>
-          Iconic brands, that consumers can’t help but fall in love with, and pay a premium for, are one of the biggest drivers of share holder value. Iconic Brands are a repository of not merely functional characteristics but of meaning and value. We work with CMO’s and their brand teams to help them craft Iconic brand positioning that infuses meaning into their brands and deploy them brilliantly in the market.
-        </p>
+      <div [class]="isEven ? 'col-lg-6 p-0' : 'col-lg-6 order-lg-1 p-0' ">
+          <div class="p-5">
+        <h2 [class]="isEven ? 'color-primary' : 'color-secondary'">{{item.title}}</h2>
+        <p *ngFor="let subitem of item.description">{{subitem.content}}</p>
 
-        <!-- <ul>
-          <li>Brands for <strong> people</strong></li>
-          <li>Brands with <strong>meaning</strong> </li>
-          <li>Brands that <strong>inspire</strong></li>
-          <li>Brands with <strong>impact</strong></li>
-          <li>Brands for <strong class="color-secondary">Good</strong> </li>
-
-        </ul> -->
+        <div class="mt-5 text-center" (click)="navigate(item)">
+        <button href="#" class="custom-btn style-01"><span>Read More</span></button>
       </div>
-    </div>
+      </div>
+      </div>
 
-    <div class="types-flex-1">
-      <img class="img-fluid" src="./assets/images/img1.jpg" />
-    </div>
 
-    <div class="types-flex-1">
-      <img class="img-fluid" src="./assets/images/img1.jpg" />
-    </div>
+  </div>
 
-    <div class="types-flex-2 bg-color-secondary">
-      <div>
-        <h2 class="color-primary">Agile Innovation</h2>
-        <p>
-          Innovations are the life blood of any organization and an engine for sustainable competitive growth. However over 90% of innovations fail in the market. We work with organizations, using agile innovation methodologies, to take the ‘luck out of innovation’ and dramatically increase the odds of success. Agile innovation put’s the consumer at the heart of the innovation process, has tools and frameworks to understand ‘consumer jobs’ & how an organization can use its capabilities to deliver superior solutions.
-        </p>
+
+
+</section>
+
+<section id="testimonials" class="common-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="custom-card">
+          <swiper-container>
+            <swiper-slide *ngFor="let item of testimonials">
+              <div class="testimonials-box">
+                <img [src]="item.image"/>
+
+                <div>
+                <p>{{item.description}} </p>
+
+                <p class="client-details">
+                  {{item.name}}<br/>
+                  {{item.client}}
+                </p>
+              </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<app-footer></app-footer>

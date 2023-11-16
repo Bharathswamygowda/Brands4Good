@@ -1,0 +1,24 @@
+footer{
+  background-color: var(--black);
+  padding: 2rem 1rem;
+  color: var(--white);
+
+  .social-icons{
+
+    a{
+      color: var(--white);
+      display: inline-block;
+
+      &:not(:last-child){
+        margin-right: 1rem;
+      }
+
+      i{
+        font-size: 1.5rem;
+      }
+    }
+
+
+  }
+
+}

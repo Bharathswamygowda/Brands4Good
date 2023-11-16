@@ -1,0 +1,60 @@
+.close {
+  color: var(--secondary-color);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+
+  .menu-items {
+    background-color: var(--black);
+    img {
+      height: 15%;
+    }
+    ul {
+      li {
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 1.15;
+        transition: all 0.2s ease-in-out;
+        transform: translateX(0) skewX(0);
+        text-transform: uppercase;
+        list-style-type: none;
+        cursor: pointer;
+        position: relative;
+
+        &:not(last-child) {
+          margin-bottom: 1.5rem;
+        }
+
+        &::after{
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 1px;
+          background: #fff;
+        }
+
+        &:hover{
+          font-style: italic;
+          transition: all 0.2s ease-in-out;
+
+          &::after{
+                    width: 9%;
+
+          }
+        }
+
+
+      }
+    }
+  }
+}
