@@ -38,8 +38,16 @@ body {
   padding: 4rem 0;
 }
 
-// button
+// banner
 
+#banner {
+  height: 500px;
+  position: relative;
+  background-size: cover;
+  background-position: 100% 52%;
+}
+
+// button
 .custom-btn {
   text-decoration: none;
   appearance: none;
