@@ -1,0 +1,26 @@
+<section id="testimonials" class="common-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="custom-card">
+          <swiper-container navigation="false" pagination="true"  loop="false" autoplay="false" >
+            <swiper-slide *ngFor="let item of testimonials">
+              <div class="testimonials-box">
+                <img [src]="item.image"/>
+
+                <div>
+                <p>{{item.description}} </p>
+
+                <p class="client-details">
+                  {{item.name}}<br/>
+                  {{item.client}}
+                </p>
+              </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

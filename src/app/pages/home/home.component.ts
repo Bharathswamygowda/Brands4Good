@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angular/router';
 
-import testimonials from '../../../assets/json/testimonials.json'
 import types from '../../../assets/json/types.json'
 
 @Component({
@@ -11,7 +10,6 @@ import types from '../../../assets/json/types.json'
 })
 export class HomeComponent {
 
-  testimonials: any = testimonials;
   types: any = types;
 
 

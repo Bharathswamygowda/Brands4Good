@@ -1,39 +1,58 @@
 <app-header></app-header>
 
-<section id="banner" [ngStyle]="{'background-image': 'url(' + details.image + ')'}">
+<section
+  id="banner"
+  [ngStyle]="{ 'background-image': 'url(' + details.image + ')' }"
+>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <h2>
-        {{details.title}}
-      </h2>
-    </div>
+          {{ details.title }}
+        </h2>
+      </div>
     </div>
   </div>
 </section>
-
 
 <section id="description" class="mt-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-
         <p *ngFor="let item of details.description">
-          {{item.content}}
+          {{ item.content }}
         </p>
 
-        <h3 class="mt-4">{{details.heading}}</h3>
-          <ul>
-            <li *ngFor="let item of details.consulting">{{item.content}}</li>
-          </ul>
-
-        <h3 class="mt-4">Examples</h3>
-
+        <h4 class="mt-4">{{ details.heading }}</h4>
+        <ul>
+          <li *ngFor="let item of details.consulting">{{ item.content }}</li>
+        </ul>
 
       </div>
-      </div>
+    </div>
   </div>
 </section>
 
+<section id="examples" class="mt-5 mb-5">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-12">
+        <h2 class="mb-4">Examples</h2>
+      </div>
+
+      <div class="col-lg-3 d-grid align-items-stretch" *ngFor="let item of details.examples; let even = even">
+
+          <div class="examples-card {{even ? 'even-color': 'odd-color'}}">
+            <div class="examples-card_container">
+              {{item.content}}
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
 
 <app-footer></app-footer>

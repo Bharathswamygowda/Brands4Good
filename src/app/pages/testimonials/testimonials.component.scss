@@ -1,0 +1,31 @@
+// testimonials
+
+#testimonials {
+  .custom-card {
+    position: relative;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow:
+      rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: var(--white);
+  }
+
+  .testimonials-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1.2rem;
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    .client-details{
+      text-align: right;
+      font-style: italic;
+    }
+
+  }
+}
