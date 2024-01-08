@@ -3,10 +3,10 @@
     "title": "Business Growth Strategy",
     "description": [
       {
-        "content": "Strategy and planning are complimentary to each other, not a substitute for each other ! Strategy is a set of integrated actions that help you win in the segments where you decide to play. Planning is a set of sequential actions to get things."
+        "content": "All organisations have a ‘business plan’ but less than 15% have a clear growth strategy that positions them to win in the market. We work closely with CEO’s & founders to help them and their teams create winning growth strategies around the choices of ‘where to play’ and ‘how to win’. The approach we use brings together leading edge strategic thinking tools, creativity and design thinking methodologies to create an actionable strategy that maximises the growth potential of the business. "
       },
       {
-        "content": "All organizations have a business plan but, less than 15% have a clear growth strategy that positions them to win in the market. We work closely with CEO’s & founders to help them create winning growth strategies around the choices of ‘where to play’ and ‘how to win’. The approach we use brings together leading edge strategic tools, creativity and design thinking methodologies to create an actionable strategy that maximizes the growth potential of the business."
+        "content": "Strategy and planning are complimentary to each other, not a substitute for each other ! Strategy is a set of integrated actions that help you win in the segments where you decide to play. Key elements of crafting a strategy include the following."
       }
     ],
     "heading": "Areas of consulting in detail:",
@@ -17,6 +17,7 @@
       {"content": "Defining 'How will we win'"},
       {"content": "What existing capabilities do we have that we can leverage / enhance."},
       {"content": "What new capabilities do we need to build."},
+      {"content": "What management systems will we put in place to nurture these capabilities."},
       {"content": "Crafting OKR’s to translate strategy into everyday actions for the business"},
       {"content": "Learning from implementation and sharpening / pivoting the strategy."}
     ],
@@ -25,24 +26,32 @@
       {"content": "Lipton Market Development Model"},
       {"content": "LXL Ideas Strategy"}
         ],
-    "image": "./assets/images/img1.jpg"
+    "image": "./assets/images/home/1.png"
   },
   {
     "title": "Iconic Branding",
     "description": [
       {
-        "content": "Iconic brands, that consumers can’t help but fall in love with, and pay a premium for, are one of the biggest drivers of share holder value. Iconic Brands are a repository of not merely functional characteristics but of meaning and value. We work with CMO’s and their brand teams to help them craft Iconic brand positioning that infuses meaning into their brands and deploy them brilliantly in the market."
+        "content": "Iconic brands, that consumers can’t help but fall in love with, and pay a premium for, are one of the biggest drivers of share holder value. Iconic Brands are a repository of not merely functional characteristics but of meaning and value. We work with CMO’s and their brand teams to help them craft Iconic brand positioning that infuses meaning into their brands and deploy them brilliantly in the market. "
       }
+
     ],
-    "heading": "Crafting Iconic brands:",
+    "heading": "Some of the tools we use to craft Iconic brands are",
     "consulting":[
       {"content": "Brand Audit facilitation"},
       {"content": "Consumer / Social / environmental insight mining"},
-      {"content": "Brand Architecture"},
-      {"content": "Iconic brand positioning"},
-      {"content": "Identifying &amp; nurturing Distinctive Brand Assets"},
-      {"content": "MVP co-creation &amp; testing"},
-      {"content": "Judging communication &amp; design"}
+      {"content": "Understanding consumers functional, emotional & social needs"},
+      {"content": "Mapping competitor brands and finding unmet need spaces "},
+      {"content": "Defining Brand Architecture"},
+      {"content": "Crafting Iconic brand positioning "},
+      {"content": "Crafting / Identifying & nurturing Distinctive Brand Assets"},
+      {"content": "Creating inspiring communication & design briefs"},
+      {"content": "Judging communication & design"},
+      {"content": "Executing brilliant brand communication "},
+      {"content": "Executing brilliant brand communication "},
+      {"content": "Deploying brand communication brilliantly in the market "},
+      {"content": "Creative effectiveness ladder & raising the ceiling of effectiveness "}
+
     ],
     "examples":[
       {"content": "Paddle Pop Indonesia / SEA campaign"},
@@ -50,32 +59,47 @@
       {"content": "Brooke Bond Taj Mahal"},
       {"content": "Magnum Turkey"}
     ],
-    
-    "image": "./assets/images/img1.jpg"
+
+    "image": "./assets/images/home/2.png"
   },
   {
     "title": "Agile Innovation ",
     "description": [
       {
-        "content": "Innovations are the life blood of any organization and an engine for sustainable competitive growth. However over 90% of innovations fail in the market. We work with organizations, using agile innovation methodologies, to take the ‘luck out of innovation’ and dramatically increase the odds of success. Agile innovation put’s the consumer at the heart of the innovation process, has tools and frameworks to understand ‘consumer jobs’ & how an organization can use its capabilities to deliver superior solutions."
+        "content": "Innovations are the life blood of any organisation and an engine for sustainable competitive growth. However over 90% of innovations fail in the market. We work with organisations, using agile innovation methodologies, to take the ‘luck out of innovation’ and help them find product market fit. Agile innovation put’s the consumer at the heart of the innovation process. Has tools and frameworks to understand ‘consumer jobs’ and how an organisation can deliver superior solutions. "
       }
     ],
-    "heading": "Agile Innovation:",
+    "heading": "Key elements of Agile innovation include:",
     "consulting":[
-      {"content": "Brand Audit facilitation"},
-      {"content": "Consumer / Social / environmental insight mining"},
-      {"content": "Brand Architecture"},
-      {"content": "Iconic brand positioning"},
-      {"content": "Identifying &amp; nurturing Distinctive Brand Assets"},
-      {"content": "MVP co-creation &amp; testing"},
-      {"content": "Judging communication &amp; design"}
+      {"content": "Crafting a category and innovation strategy "},
+      {"content": "Understanding Consumer jobs"},
+      {"content": "Ideation that deliver on the consumer jobs"},
+      {"content": "MVP co-creation & testing"},
+      {"content": "Listening & learning from consumer feedback"},
+      {"content": "Repeating the loop for Product Market fit."},
+      {"content": "Pricing & Channel strategy"},
+      {"content": "In market launch monitoring & adaptation."},
+      {"content": "Identifying innovations platforms"},
+      {"content": "Establishing a consumer centric Agile innovation system & culture"}
     ],
+
+    "services": "Other consulting services ",
+      "serviceList":[
+        {"content": "Market Development & Category creation"},
+        {"content": "Marketing transformation & capability building "},
+        {"content": "Strategy, Branding & Agile innovation Training & Development"},
+        {"content": "C Suite Mentoring"},
+        {"content": "Fractional CMO services"},
+        {"content": "Strategy, Branding & Innovation Workshop design & implementation"},
+        {"content": "Teaching"}
+      ],
+
     "examples":[
       {"content": "Paddle Pop Indonesia / SEA campaign"},
       {"content": "Lipton Arabia Ramadan Campaign"},
       {"content": "Brooke Bond Taj Mahal"},
       {"content": "Magnum Turkey"}
     ],
-    "image": "./assets/images/img1.jpg"
+    "image": "./assets/images/home/3.png"
   }
 ]

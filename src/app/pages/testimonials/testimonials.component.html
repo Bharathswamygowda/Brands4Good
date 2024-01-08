@@ -3,16 +3,16 @@
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <div class="custom-card">
-          <swiper-container navigation="false" pagination="true"  loop="false" autoplay="false" >
+          <swiper-container navigation="false" pagination="true"  loop="false" autoplay="true" >
             <swiper-slide *ngFor="let item of testimonials">
               <div class="testimonials-box">
-                <img [src]="item.image"/>
+                <!-- <img [src]="item.image"/> -->
 
                 <div>
                 <p>{{item.description}} </p>
 
                 <p class="client-details">
-                  {{item.name}}<br/>
+                 <strong> {{item.name}}</strong><br/>
                   {{item.client}}
                 </p>
               </div>

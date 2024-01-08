@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angular/router';
-
-import types from '../../../assets/json/types.json'
+import { CommonserviceService } from 'src/app/service/commonservice.service';
 
 @Component({
   selector: 'app-home',
@@ -10,15 +9,25 @@ import types from '../../../assets/json/types.json'
 })
 export class HomeComponent {
 
-  types: any = types;
+  types: any;
 
 
 
   constructor(
     private activatedRoute: ActivatedRoute,
     private router: Router,
-
+    private serviceProvider: CommonserviceService
   ) {}
+
+
+  async getTypes(){
+    const url = '../../../assets/json/types.json'
+    this.serviceProvider.getWebService(url).subscribe({
+      next: async (response: any) => {
+        this.types = response
+      }
+      })
+  }
 
 
   async navigate(item:any){
@@ -34,9 +43,8 @@ export class HomeComponent {
 
 
 
-  ngOnInit(): void {
-
-
+ async ngOnInit() {
+  await this.getTypes()
   }
 
 

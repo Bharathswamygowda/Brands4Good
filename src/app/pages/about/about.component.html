@@ -1,5 +1,8 @@
 <app-header></app-header>
-<section id="banner" style="background-image: url('./assets/images/banner.jpg');">
+<section
+  id="banner"
+  style="background-image: url('./assets/images/banner.jpg')"
+>
   <div class="container">
     <div class="row">
       <div class="col-lg-12"></div>
@@ -7,7 +10,92 @@
   </div>
 </section>
 
+<section id="about" class="common-space">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="./assets/images/profile.jpg" />
+        <div class="text-center">
+          <p>
+            Rakesh Asrani <br />
+            <strong>Founder & Chief Consultant</strong>
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <p>
+          My purpose is to help business, brands and people realise their full
+          potential and make a positive impact in the world. I lived my purpose
+          in Unilever for 23 years (25 years FMCG experience overall) leading
+          the work on some amazing global and regional brands and businesses in
+          over 20 countries across South Asia, Middle East, Turkey, North
+          Africa, Russia and Southeast Asia. I started Brands4good consulting in
+          early 2023, to broaden the impact of my work and make leading edge
+          expertise accessible to many more organisations across India and the
+          world. I do this by partnering with founders, CEO’s & board teams
+          across three critical pillars that drive accelerated, competitive,
+          profitable, consistent and purposeful growth - 5G growth.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="timeline" class="common-space">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <div class="section-header">
+        <h1 class="text-center color-secondary">Few Past Roles</h1>
+      </div>
+        <div class="timeline">
+          <ul>
+            <li *ngFor="let item of timeline">
+              <div class="content">
+                <h3>{{item.title}} </h3>
+                  <p>&nbsp;</p>
+
+              </div>
+              <div class="time">
+                <h4>{{item.year}} </h4>
+              </div>
+            </li>
+
+            <div style="clear: both"></div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="brands" class="common-space">
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <div class="section-header">
+        <h1 class="text-center color-secondary mb-5">Brands worked on</h1>
+      </div>
+      </div>
+
+
+      <div class="col-lg-2 mb-3" *ngFor="let item of brands">
+        <div class="card text-center">
+          <img class="img-fluid" [src]="item.image"/>
+
+          <!-- <p>{{item.client}}</p> -->
+
+        </div>
+      </div>
+
+
+      </div>
+      </div>
+</section>
+
+
+
 <app-testimonials></app-testimonials>
 
 <app-footer></app-footer>
-

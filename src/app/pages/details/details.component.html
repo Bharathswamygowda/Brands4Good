@@ -28,6 +28,13 @@
           <li *ngFor="let item of details.consulting">{{ item.content }}</li>
         </ul>
 
+        <div *ngIf="details.services">
+        <h4 class="mt-4">{{ details.services }}</h4>
+        <ul>
+          <li *ngFor="let item of details.serviceList">{{ item.content }}</li>
+        </ul>
+      </div>
+
       </div>
     </div>
   </div>
