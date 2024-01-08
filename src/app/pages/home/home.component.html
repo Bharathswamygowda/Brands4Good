@@ -1,5 +1,5 @@
 <app-header></app-header>
-<section id="banner" style="background-image: url('./assets/images/banner.jpg');">
+<section id="banner" style="background-image: url('./assets/images/home/2.png');">
   <div class="container">
     <div class="row">
       <div class="col-lg-12"></div>
@@ -37,7 +37,7 @@
       <div [class]="isEven ? 'col-lg-6 p-0' : 'col-lg-6 order-lg-1 p-0' ">
           <div class="p-5">
         <h2 [class]="isEven ? 'color-primary' : 'color-secondary'">{{item.title}}</h2>
-        <p *ngFor="let subitem of item.description">{{subitem.content}}</p>
+        <p *ngFor="let subitem of item.description; let i=index" [class]="i=== 0 ? '' : 'd-none' ">{{subitem.content}}</p>
 
         <div class="mt-5 text-center" (click)="navigate(item)">
         <button href="#" class="custom-btn style-01"><span>Read More</span></button>
