@@ -43,9 +43,9 @@
         <h2 class="mb-4">Examples</h2>
       </div>
 
-      <div class="col-lg-3 d-grid align-items-stretch" *ngFor="let item of details.examples; let even = even">
+      <div class="col-lg-3 d-grid align-items-stretch mb-4" *ngFor="let item of details.examples; let even = even">
 
-          <div class="examples-card {{even ? 'even-color': 'odd-color'}}">
+          <div class="examples-card {{even ? 'even-color': 'odd-color'}}" (click)="presentModal(item)">
             <div class="examples-card_container">
               {{item.content}}
             </div>

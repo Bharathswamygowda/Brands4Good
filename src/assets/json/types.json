@@ -22,9 +22,15 @@
       {"content": "Learning from implementation and sharpening / pivoting the strategy."}
     ],
     "examples":[
-      {"content": "Algida Turkey ice cream strategy"},
-      {"content": "Lipton Market Development Model"},
-      {"content": "LXL Ideas Strategy"}
+      {"content": "Algida Turkey ice cream strategy",
+      "example":""
+    },
+      {"content": "Lipton Market Development Model",
+      "example":""
+    },
+      {"content": "LXL Ideas Strategy",
+      "example":""
+    }
         ],
     "image": "./assets/images/home/11.png"
   },
@@ -54,10 +60,18 @@
 
     ],
     "examples":[
-      {"content": "Paddle Pop Indonesia / SEA campaign"},
-      {"content": "Lipton Arabia Ramadan Campaign"},
-      {"content": "Brooke Bond Taj Mahal"},
-      {"content": "Magnum Turkey"}
+      {"content": "Paddle Pop Indonesia / SEA campaign",
+        "example":"https://www.youtube.com/embed/oYUAlq6EhNw?si=PP81aSGrUgOS8Ouu"
+      },
+      {"content": "Lipton Arabia Ramadan Campaign",
+      "example":"https://www.youtube.com/embed/nY-9OVe31aM?si=qv30LYxBGpph2LbV"
+    },
+      {"content": "Brooke Bond Taj Mahal",
+      "example":"https://www.youtube.com/embed/dYR3-FofNoc?si=KvP-BmFCsB_uT516"
+    },
+      {"content": "Magnum Turkey",
+      "example":"https://www.youtube.com/embed/56VU5MJ_zk0?si=8Cj_kIclfJkm_5X_"
+    }
     ],
 
     "image": "./assets/images/home/222.png"
@@ -95,10 +109,27 @@
       ],
 
     "examples":[
-      {"content": "Paddle Pop Indonesia / SEA campaign"},
-      {"content": "Lipton Arabia Ramadan Campaign"},
-      {"content": "Brooke Bond Taj Mahal"},
-      {"content": "Magnum Turkey"}
+      {"content": "Walls Bites Time Thailand & SEA",
+      "example":"https://www.youtube.com/embed/mAYOECBU2e8?si=mg-CRGeAsxaWW2Vt"
+      },
+      {"content": "Magnum Dark launch in Turkey ",
+      "example":"https://www.youtube.com/embed/Zozvq5KNXU8?si=A3TCbaig4MU-y0DZ"
+    },
+      {"content": "Walls Blast Choco Cheese South East Asia ",
+      "example":"https://www.youtube.com/embed/QcucDOLdLJs?si=AH2HBHROL4L0SpkJ"
+    },
+      {"content": "Buavita2GO Indonesia      ",
+      "example":"https://www.youtube.com/embed/AB7BSoXs1LM?si=xWXZIzlXoH1HQ-v0"
+    },
+    {"content": "Nogger Oreo Turkey",
+    "example":"https://www.youtube.com/embed/fGt2ZcAiXlY?si=IIIYQolwPqHc8uNc"
+  },
+  {"content": "Brooke Bond Red Label Round Tea bags  ",
+  "example":"https://www.youtube.com/embed/6iqY1XgEFVM?si=Y65skC17i4JIU_QW"
+},
+{"content": "Cornetto Black Southeast Asia",
+"example":"https://www.youtube.com/embed/8_Jv5TugdEQ?si=Z__kmzdg_PyS-PuE"
+}
     ],
     "image": "./assets/images/home/333.png"
   }

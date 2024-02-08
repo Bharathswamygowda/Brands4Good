@@ -1,0 +1,17 @@
+<section class="p-3">
+<div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                    <div class="mb-3">
+          <i (click)="dismiss()" class="fa-solid fa-circle-xmark float-end"></i>
+              <h3>{{ example.content }}</h3>
+          </div>
+
+              <iframe width="100%" height="500" [src]="example.example | domSanitizer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            
+
+            </div>
+          </div>
+        </div>
+</section>

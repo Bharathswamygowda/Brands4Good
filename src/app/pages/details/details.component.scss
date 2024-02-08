@@ -22,10 +22,12 @@
 
 #examples{
   .examples-card{
+    cursor: pointer;
     // box-shadow: 0 10px 15px #00000008;
     border-radius: 5px;
     border: 1px solid #eeeeee;
     padding: 1rem 1rem 1.5rem;
+
   }
 
 

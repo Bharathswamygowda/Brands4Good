@@ -13,6 +13,8 @@ import { DetailsComponent } from './pages/details/details.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
+import { ExampleComponent } from './layout/example/example.component';
+import { DomSanitizerPipe } from './pipe/dom-sanitizer.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
     TestimonialsComponent,
     DetailsComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    ExampleComponent,
+    DomSanitizerPipe
   ],
   imports: [
     BrowserModule,
