@@ -24,7 +24,7 @@ export class AboutComponent {
   }
 
   getBrands(){
-    const url = '../../../assets/json/brands.json'
+    const url = './assets/json/brands.json'
     this.serviceProvider.getWebService(url).subscribe({
       next: async (response: any) => {
         this.brands = response

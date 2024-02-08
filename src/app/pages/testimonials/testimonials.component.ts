@@ -17,7 +17,7 @@ export class TestimonialsComponent {
 
 
   async getTestimonials(){
-    const url = '../../../assets/json/testimonials.json'
+    const url = './assets/json/testimonials.json'
     this.serviceProvider.getWebService(url).subscribe({
       next: async (response: any) => {
         this.testimonials = response

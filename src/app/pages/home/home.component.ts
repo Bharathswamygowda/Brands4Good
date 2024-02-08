@@ -21,7 +21,7 @@ export class HomeComponent {
 
 
   async getTypes(){
-    const url = '../../../assets/json/types.json'
+    const url = './assets/json/types.json'
     this.serviceProvider.getWebService(url).subscribe({
       next: async (response: any) => {
         this.types = response
