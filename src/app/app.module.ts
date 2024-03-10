@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { HttpClientModule, HttpClient, HttpBackend } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
@@ -15,6 +16,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 import { ExampleComponent } from './layout/example/example.component';
 import { DomSanitizerPipe } from './pipe/dom-sanitizer.pipe';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -32,9 +34,11 @@ import { DomSanitizerPipe } from './pipe/dom-sanitizer.pipe';
     DomSanitizerPipe
   ],
   imports: [
+    CarouselModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserAnimationsModule
 
   ],
   providers: [],

@@ -15,7 +15,7 @@ export class AboutComponent {
   ) {}
 
   getTimeline(){
-    const url = '../../../assets/json/timeline.json'
+    const url = './assets/json/timeline.json'
     this.serviceProvider.getWebService(url).subscribe({
       next: async (response: any) => {
         this.timeline = response
