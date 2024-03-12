@@ -32,11 +32,11 @@ export class HeaderComponent {
       this.router.navigate([''])
     }
     else if(item.id === '02'){
-      this.router.navigate(['about'])
+      this.router.navigate(['/about'])
     }
 
     else if(item.id === '03'){
-      this.router.navigate(['contact'])
+      this.router.navigate(['/contact'])
     }
 
   }
