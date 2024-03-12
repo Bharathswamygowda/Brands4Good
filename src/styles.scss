@@ -13,6 +13,10 @@
   /* Define your gradient here */
 }
 
+html, body {
+  scroll-behavior: auto !important;
+}
+
 body {
   font-size: 1.2rem !important;
   overflow-x: hidden;
@@ -49,9 +53,18 @@ body {
 
 #banner {
   height: 500px;
+  display: flex;
+  align-items: center;
   position: relative;
   background-size: cover;
   background-position: 100% 52%;
+
+h1{
+  color: #fff;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.70);
+
+}
+
 }
 
 // button

@@ -28,7 +28,7 @@ export class DetailsComponent {
   presentModal(item:any) {
       this.modalData = this.modalService.open(ExampleComponent, {
         size: 'lg' ,
-       animation: true,
+       animation: false,
      });
      this.modalData.componentInstance.example = item
 

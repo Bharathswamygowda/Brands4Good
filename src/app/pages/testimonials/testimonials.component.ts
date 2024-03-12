@@ -13,6 +13,8 @@ export class TestimonialsComponent {
 
   customOptions: OwlOptions = {
     loop: true,
+    autoplay: true,
+    autoplayHoverPause: true,
     mouseDrag: false,
     touchDrag: false,
     pullDrag: false,

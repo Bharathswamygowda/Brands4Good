@@ -22,7 +22,7 @@
       {"content": "Learning from implementation and sharpening / pivoting the strategy."}
     ],
 
-    "image": "./assets/images/home/11.png"
+    "image": "./assets/images/home/bb.png"
   },
   {
     "title": "Iconic Branding",
@@ -43,7 +43,6 @@
       {"content": "Crafting / Identifying & nurturing Distinctive Brand Assets"},
       {"content": "Creating inspiring communication & design briefs"},
       {"content": "Judging communication & design"},
-      {"content": "Executing brilliant brand communication "},
       {"content": "Executing brilliant brand communication "},
       {"content": "Deploying brand communication brilliantly in the market "},
       {"content": "Creative effectiveness ladder & raising the ceiling of effectiveness "}
@@ -121,6 +120,31 @@
 "example":"https://www.youtube.com/embed/8_Jv5TugdEQ?si=Z__kmzdg_PyS-PuE"
 }
     ],
+    "image": "./assets/images/home/333.png"
+  },
+  {
+    "title": "Other consulting services ",
+    "description": [
+      {
+        "content": "Innovations are the life blood of any organisation and an engine for sustainable competitive growth. However over 90% of innovations fail in the market. We work with organisations, using agile innovation methodologies, to take the ‘luck out of innovation’ and help them find product market fit. Agile innovation put’s the consumer at the heart of the innovation process. Has tools and frameworks to understand ‘consumer jobs’ and how an organisation can deliver superior solutions. "
+      }
+    ],
+    "heading": "Key elements of Agile innovation include:",
+    "consulting":[
+      {"content": "Market Development & Category creation "},
+      {"content": "Marketing transformation & capability building"},
+      {"content": "Strategy, Branding & Agile innovation Training & Development"},
+      {"content": "C Suite Mentoring"},
+      {"content": "Fractional CMO services"},
+      {"content": "Strategy, Branding & Innovation Workshop design & implementation"},
+      {"content": "Teaching"},
+      {"content": "In market launch monitoring & adaptation."},
+      {"content": "Identifying innovations platforms"},
+      {"content": "Establishing a consumer centric Agile innovation system & culture"}
+    ],
+
+  
+
     "image": "./assets/images/home/333.png"
   }
 ]
