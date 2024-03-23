@@ -39,7 +39,9 @@ export class HomeComponent {
         details: item,
       }
     };
-    this.router.navigate(['/details'], navigationExtras);
+    const sanitizedTitle = item.title.replace(/\s+/g, '-');
+
+    this.router.navigate(['/' + sanitizedTitle], navigationExtras);
   }
 
 

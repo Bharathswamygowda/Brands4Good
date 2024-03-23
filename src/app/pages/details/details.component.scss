@@ -1,4 +1,8 @@
 #banner {
+  #banner{
+  height: 80vh !important;
+ }
+ 
   h2{
     text-transform: uppercase;
     position: absolute;
@@ -69,10 +73,13 @@
       border-radius: 50%;
       color: var(--white);
       height: 40px;
+      position: relative;
       width: 40px;
       align-items: center;
       justify-content: center;
       display: flex;
+
+
     }
 
   }

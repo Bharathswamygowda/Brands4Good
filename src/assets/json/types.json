@@ -3,13 +3,10 @@
     "title": "Business Growth Strategy",
     "description": [
       {
-        "content": "All organisations have a ‘business plan’ but less than 15% have a clear growth strategy that positions them to win in the market. We work closely with CEO’s & founders to help them and their teams create winning growth strategies around the choices of ‘where to play’ and ‘how to win’. The approach we use brings together leading edge strategic thinking tools, creativity and design thinking methodologies to create an actionable strategy that maximises the growth potential of the business. "
-      },
-      {
-        "content": "Strategy and planning are complimentary to each other, not a substitute for each other ! Strategy is a set of integrated actions that help you win in the segments where you decide to play. Key elements of crafting a strategy include the following."
+        "content": "We work closely with CEO’s & founders to help them create winning  growth strategies around the choices of ‘where to play’ and ‘how to win’. The approach we use brings together leading edge strategic thinking tools, creativity and design thinking methodologies to create actionable strategies that positions their business to win in the market."
       }
     ],
-    "heading": "Areas of consulting in detail:",
+    "heading": "Key elements of the process is based on Roger L Martin’s “Playing to win” framework and include’s the following:",
     "consulting":[
       {"content": "Creating a shared Understanding of 'Where are we today'"},
       {"content": "Co-creating a ‘winning aspiration’ for the business."},
@@ -22,13 +19,14 @@
       {"content": "Learning from implementation and sharpening / pivoting the strategy."}
     ],
 
-    "image": "./assets/images/home/bb.png"
+    "image": "./assets/images/home/bb.png",
+  "detailaImage": "./assets/images/home/bb-detailsbanner.jpg"
   },
   {
     "title": "Iconic Branding",
     "description": [
       {
-        "content": "Iconic brands, that consumers can’t help but fall in love with, and pay a premium for, are one of the biggest drivers of share holder value. Iconic Brands are a repository of not merely functional characteristics but of meaning and value. We work with CMO’s and their brand teams to help them craft Iconic brand positioning that infuses meaning into their brands and deploy them brilliantly in the market. "
+        "content": "Iconic brands, that consumers can’t help but fall in love with, and pay  a premium for, are one of the biggest drivers of share holder value. Iconic Brands are a repository of not merely functional characteristics but of meaning and value. We work with CMO’s and their brand teams to help them craft Iconic brand positioning and deploy them brilliantly in the market. "
       }
 
     ],
@@ -40,6 +38,7 @@
       {"content": "Mapping competitor brands and finding unmet need spaces "},
       {"content": "Defining Brand Architecture"},
       {"content": "Crafting Iconic brand positioning "},
+      {"content": "Identifying Brand Archetype"},
       {"content": "Crafting / Identifying & nurturing Distinctive Brand Assets"},
       {"content": "Creating inspiring communication & design briefs"},
       {"content": "Judging communication & design"},
@@ -63,13 +62,18 @@
     }
     ],
 
-    "image": "./assets/images/home/222.png"
+    "image": "./assets/images/home/222.png",
+    "detailaImage": "./assets/images/home/222.png"
+
   },
   {
-    "title": "Agile Innovation ",
+    "title": "Agile Innovation",
     "description": [
       {
-        "content": "Innovations are the life blood of any organisation and an engine for sustainable competitive growth. However over 90% of innovations fail in the market. We work with organisations, using agile innovation methodologies, to take the ‘luck out of innovation’ and help them find product market fit. Agile innovation put’s the consumer at the heart of the innovation process. Has tools and frameworks to understand ‘consumer jobs’ and how an organisation can deliver superior solutions. "
+        "content": "Innovations are the life blood of any organisation and an engine for  sustainable competitive growth. However over 90% of innovations fail in the market. We work with organisations, using agile innovation methodologies, to take the ‘luck out of innovation’ and dramatically increase the odds of success. "
+      },
+      {
+        "content": "Agile innovation put’s the consumer at the heart of the innovation process. Has tools and frameworks to understand ‘consumer jobs’ and how an organisation can use it’s capabilities to deliver superior solutions against the job faster & cheaper than ever before."
       }
     ],
     "heading": "Key elements of Agile innovation include:",
@@ -77,8 +81,10 @@
       {"content": "Crafting a category and innovation strategy "},
       {"content": "Understanding Consumer jobs"},
       {"content": "Ideation that deliver on the consumer jobs"},
+      {"content": "Crafting inspiring concepts"},
       {"content": "MVP co-creation & testing"},
       {"content": "Listening & learning from consumer feedback"},
+      {"content": "Getting to product-market fit"},
       {"content": "Repeating the loop for Product Market fit."},
       {"content": "Pricing & Channel strategy"},
       {"content": "In market launch monitoring & adaptation."},
@@ -120,31 +126,29 @@
 "example":"https://www.youtube.com/embed/8_Jv5TugdEQ?si=Z__kmzdg_PyS-PuE"
 }
     ],
-    "image": "./assets/images/home/333.png"
+    "image": "./assets/images/home/333.png",
+    "detailaImage": "./assets/images/home/333.png"
+
   },
   {
     "title": "Other consulting services ",
     "description": [
       {
-        "content": "Innovations are the life blood of any organisation and an engine for sustainable competitive growth. However over 90% of innovations fail in the market. We work with organisations, using agile innovation methodologies, to take the ‘luck out of innovation’ and help them find product market fit. Agile innovation put’s the consumer at the heart of the innovation process. Has tools and frameworks to understand ‘consumer jobs’ and how an organisation can deliver superior solutions. "
+        "content": "We offer a host of other consulting services, customized to your needs, that include the following."
       }
     ],
-    "heading": "Key elements of Agile innovation include:",
     "consulting":[
-      {"content": "Market Development & Category creation "},
+      {"content": "Fractional CMO Services "},
+      {"content": "Market Development & Category creation"},
       {"content": "Marketing transformation & capability building"},
-      {"content": "Strategy, Branding & Agile innovation Training & Development"},
-      {"content": "C Suite Mentoring"},
-      {"content": "Fractional CMO services"},
-      {"content": "Strategy, Branding & Innovation Workshop design & implementation"},
-      {"content": "Teaching"},
-      {"content": "In market launch monitoring & adaptation."},
-      {"content": "Identifying innovations platforms"},
-      {"content": "Establishing a consumer centric Agile innovation system & culture"}
+      {"content": "Start up mentoring"},
+      {"content": "Pricing & Channel Strategies"},
+      {"content": "Training & Development"},
+      {"content": "Workshop design & implementation"},
+      {"content": "Teaching"}
     ],
+    "image": "./assets/images/home/dd.png",
+    "detailaImage": "./assets/images/home/dd.png"
 
-  
-
-    "image": "./assets/images/home/333.png"
   }
 ]
