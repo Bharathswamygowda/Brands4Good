@@ -54,11 +54,11 @@ export class HomeComponent {
 
   const options = {
     strings: ['with meaning', 'with Imagination', 'that Inspire', 'for people', 'for Good'],
-    typeSpeed: 150,
-    backSpeed: 150,
-    showCursor: true,
+    typeSpeed: 100,
+    backSpeed: 0,
+    showCursor: false,
     cursorChar: '|',
-    fadeOut: false,
+    fadeOut: true,
     loop: true
 };
    
