@@ -1,15 +1,20 @@
-[
-  {"client": "Magnum ice cream", "image":"./assets/images/brands/magnum.png"},
-  {"client": "Cornetto", "image":"./assets/images/brands/cornetto.png"},
-  {"client": "Paddle Pop", "image":"./assets/images/brands/paddle.png"},
-  {"client": "Wall's, Carte Dor", "image":"./assets/images/brands/wall's.png"},
-  {"client": "Lipton", "image":"./assets/images/brands/lipton.png"},
-  {"client": "Brooke Bond Red Label", "image":"./assets/images/brands/red-label.jpg"},
-  {"client": "Brooke Bond Taj Mahal", "image":"./assets/images/brands/taj.jpg"},
-  {"client": "Kissan", "image":"./assets/images/brands/kissan.png"},
-  {"client": "Buavita", "image":"./assets/images/brands/buavita.jpg"},
-  {"client": "Pro-ease", "image":"./assets/images/brands/pro-ease.png"},
-  {"client": "Xpert", "image":"./assets/images/brands/xpert.jpg"},
-  {"client": "Ghari", "image":"./assets/images/brands/magnum.png"},
-  {"client": "LXL School Cinema", "image":"./assets/images/brands/lxl.png"}
-]
+  [
+    {"client": "Magnum ice cream", "image":"./assets/images/brands/Paddle-Pop.png"},
+    {"client": "Cornetto", "image":"./assets/images/brands/Feast-logo.png"},
+    {"client": "Paddle Pop", "image":"./assets/images/brands/Twister-logo.png"},
+    {"client": "Wall's, Carte Dor", "image":"./assets/images/brands/Calippo-Logo.png"},
+    {"client": "Lipton", "image":"./assets/images/brands/Carte-Dor-logo.png"},
+    {"client": "Brooke Bond Red Label", "image":"./assets/images/brands/Cornetto Logo.png"},
+    {"client": "Brooke Bond Taj Mahal", "image":"./assets/images/brands/Walls-Logo.png"},
+    {"client": "Kissan", "image":"./assets/images/brands/Magnum-Logo.png"},
+    {"client": "Lipton", "image":"./assets/images/brands/lipton.png"},
+    {"client": "Lipton", "image":"./assets/images/brands/kissan.png"},
+    {"client": "Buavita", "image":"./assets/images/brands/Buavita-fruit-juices.png"},
+    {"client": "lxl", "image":"./assets/images/brands/lxl.png"},
+    {"client": "pro-easy", "image":"./assets/images/brands/Pro-ease.png"},
+    {"client": "Lovingle", "image":"./assets/images/brands/Lovingle.png"}
+
+  ]
+
+
+
