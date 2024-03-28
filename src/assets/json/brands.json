@@ -1,19 +1,18 @@
   [
-    {"client": "Magnum", "image":"./assets/images/brands/Magnum-Logo.png"},
-    {"client": "Brooke Bond Red Label", "image":"./assets/images/brands/Cornetto Logo.png"},
-    {"client": "Brooke Bond Taj Mahal", "image":"./assets/images/brands/Walls-Logo.png"},
-    {"client": "Paddle-Pop", "image":"./assets/images/brands/Paddle-Pop.png"},
-    {"client": "Paddle Pop", "image":"./assets/images/brands/Twister-logo.png"},
-    {"client": "Cornetto", "image":"./assets/images/brands/Feast-logo.png"},
-    {"client": "Wall's, Carte Dor", "image":"./assets/images/brands/Calippo-Logo.png"},
-    {"client": "Lipton", "image":"./assets/images/brands/Carte-Dor-logo.png"},
-    {"client": "Lipton", "image":"./assets/images/brands/lipton.png"},
-    {"client": "Lipton", "image":"./assets/images/brands/kissan.png"},
-    {"client": "Buavita", "image":"./assets/images/brands/Buavita-fruit-juices.jpg"},
-    {"client": "lxl", "image":"./assets/images/brands/lxl.png"},
-    {"client": "pro-easy", "image":"./assets/images/brands/Pro-ease.png"},
-    {"client": "Lovingle", "image":"./assets/images/brands/Lovingle.png"}
-
+    {"client": "Magnum", "id":1, "image":"./assets/images/brands/Magnum-Logo.png"},
+    {"client": "Brooke Bond Red Label","id":1, "image":"./assets/images/brands/Cornetto Logo.png"},
+    {"client": "Brooke Bond Taj Mahal","id":1, "image":"./assets/images/brands/Walls-Logo.png"},
+    {"client": "Paddle-Pop","id":1, "image":"./assets/images/brands/Paddle-Pop.png"},
+    {"client": "Paddle Pop","id":1, "image":"./assets/images/brands/Twister-logo.png"},
+    {"client": "Cornetto","id":1, "image":"./assets/images/brands/Feast-logo.png"},
+    {"client": "Wall's, Carte Dor","id":1, "image":"./assets/images/brands/Calippo-Logo.png"},
+    {"client": "Lipton","id":1, "image":"./assets/images/brands/Carte-Dor-logo.png"},
+    {"client": "Lipton","id":1, "image":"./assets/images/brands/lipton.png"},
+    {"client": "kissan","id":1, "image":"./assets/images/brands/kissan.png"},
+    {"client": "red label","id":1, "image":"./assets/images/brands/red-label.png"},
+    {"client": "red label", "id":1,"image":"./assets/images/brands/taj.jpeg"},
+    {"client": "lxl","id":1, "image":"./assets/images/brands/lxl.png"},
+    {"client": "lxl", "id":1,"image":"./assets/images/brands/lxl-cinema.jpeg"}
   ]
 
 
