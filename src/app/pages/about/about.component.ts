@@ -10,7 +10,6 @@ export class AboutComponent {
 
   timeline:any;
   brands:any;
-  brandsOthers:any;
 
   constructor(
     private serviceProvider: CommonserviceService
@@ -30,19 +29,11 @@ export class AboutComponent {
     this.serviceProvider.getWebService(url).subscribe({
       next: async (response: any) => {
         this.brands = response
-        this.getothers()
       }
       })
   }
 
-  getothers(){
-    const url = './assets/json/brand-other.json'
-    this.serviceProvider.getWebService(url).subscribe({
-      next: async (response: any) => {
-        this.brandsOthers = response
-      }
-      })
-  }
+
 
 
   async ngOnInit() {

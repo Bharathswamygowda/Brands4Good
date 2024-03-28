@@ -10,9 +10,11 @@
     {"client": "Lipton","id":1, "image":"./assets/images/brands/lipton.png"},
     {"client": "kissan","id":1, "image":"./assets/images/brands/kissan.png"},
     {"client": "red label","id":1, "image":"./assets/images/brands/red-label.png"},
-    {"client": "red label", "id":1,"image":"./assets/images/brands/taj.jpeg"},
+    {"client": "red label", "id":1,"image":"./assets/images/brands/taj.png"},
     {"client": "lxl","id":1, "image":"./assets/images/brands/lxl.png"},
-    {"client": "lxl", "id":1,"image":"./assets/images/brands/lxl-cinema.jpeg"}
+    {"client": "lxl", "id":1,"image":"./assets/images/brands/lxl-cinema.jpeg"},
+    {"client": "pro-easy","id":2, "image":"./assets/images/brands/Pro-ease.png"},
+    {"client": "Lovingle","id":2, "image":"./assets/images/brands/Lovingle.png"}
   ]
 
 
