@@ -7,6 +7,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
+  { path: 'home', component: HomeComponent, pathMatch: 'full', data: { fragment: 'sectionId' } }, // Route with section ID
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
   { path: '**', component: DetailsComponent},
