@@ -46,11 +46,10 @@
           Business Strategy, Iconic Branding & Agile innovation consulting
         </h1>
         <p class="mb-0 color-secondary">
-          Our purpose is to help business, brands and people realize their full
-          growth potential and make a positive impact on the world. We work with
-          CEO’s, CMO’s and board teams on three key verticals of business growth
-          strategy, brand positioning & agile innovation and help them unlock
-          the full growth potential of their business.
+          Our purpose is to help businesses, brands, and people realize their full growth
+potential and leave a positive impact on the world. We work with CEOs, Founders,
+CMOs, and board teams on three key verticals: business growth strategy, brand
+positioning, and agile innovation.
         </p>
       </div>
     </div>
@@ -71,7 +70,7 @@
         <p *ngFor="let subitem of item.description; let i=index" [class]="i=== 0 ? '' : 'd-none' ">{{subitem.content}}</p>
 
         <div class="mt-5 text-center" (click)="navigate(item)">
-        <button href="#" class="custom-btn style-01"><span>Read More</span></button>
+        <button href="#" ngClass="custom-btn" [class]="isEven ? 'custom-btn-1 style-01' : 'custom-btn-2 style-02'"><span>Read More</span></button>
       </div>
       </div>
       </div>
