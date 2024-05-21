@@ -34,7 +34,7 @@ Founder & Chief Consultant</strong>
           expertise accessible to many more organisations across India and the
           world. I do this by partnering with founders, CEO’s & board teams
           across three critical pillars that drive accelerated, competitive,
-          profitable, consistent and purposeful growth - 5G growth.
+          profitable, consistent and purposeful growth.
         </p>
       </div>
     </div>
@@ -54,7 +54,7 @@ Founder & Chief Consultant</strong>
             <li *ngFor="let item of timeline">
               <div class="content">
                 <h3>{{item.title}} </h3>
-                  <p>&nbsp;</p>
+                  <p>{{item.company}}</p>
 
               </div>
               <div class="time">
@@ -81,7 +81,7 @@ Founder & Chief Consultant</strong>
       </div>
 
 
-      <div class="col-lg-2 mb-3" *ngFor="let item of brands">
+      <div class="col-lg-2 col-sm-6 col-xs-6 col-6 mb-3" *ngFor="let item of brands">
         <div class="card text-center">
           <img  class="img-fluid" [src]="item.image"/>
         </div>
