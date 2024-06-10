@@ -19,8 +19,8 @@
       {"content": "Learning from implementation and sharpening the strategy"}
     ],
 
-    "image": "./assets/images/home/bb.png",
-  "detailaImage": "./assets/images/home/bb-detailsbanner.jpg"
+    "image": "./assets/images/home/business-growth.jpg",
+  "detailaImage": "./assets/images/home/business-growth-details.jpg"
   },
   {
     "title": "Iconic Branding",
@@ -111,8 +111,8 @@
 "example":"https://www.youtube.com/embed/8_Jv5TugdEQ?si=Z__kmzdg_PyS-PuE"
 }
     ],
-    "image": "./assets/images/home/333.png",
-    "detailaImage": "./assets/images/home/333.png"
+    "image": "./assets/images/home/agile.jpg",
+    "detailaImage": "./assets/images/home/agile-details.jpg"
 
   },
   {
