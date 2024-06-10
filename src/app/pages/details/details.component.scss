@@ -37,6 +37,12 @@
     border: 1px solid #eeeeee;
     padding: 1rem 1rem 1.5rem;
 
+    
+  &:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    
+  }
+
   }
 
 
@@ -49,6 +55,8 @@
     background-color: var(--secondary-color);
     color: var(--white);
   }
+
+
 
 }
 
