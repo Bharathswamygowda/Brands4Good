@@ -24,6 +24,7 @@
         </p>
 
         <!-- <h4 class="mt-5 mb-4 color-secondary">{{ details.heading }}</h4> -->
+        <p class="color-secondary" *ngIf="details.heading1">{{ details.heading1 }}</p>
         <p class="color-secondary">{{ details.heading }}</p>
         <ul class="area-consulting">
           <li class="color-secondary" *ngFor="let item of details.consulting; let i = index"><span><img src="./assets/images/icon.png"/></span> {{ item.content }}</li>
