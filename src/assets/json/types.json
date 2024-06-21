@@ -16,22 +16,22 @@
       {"content": "Identifying new capabilities to build"},
       {"content": "Developing management systems to nurture these abilities"},
       {"content": "Creating OKRs to translate strategy into practical business actions"},
+      {"content": "Ensuring organisation culture supports strategy implementation "},
       {"content": "Learning from implementation and sharpening the strategy"}
     ],
 
     "image": "./assets/images/home/business-growth.jpg",
-  "detailaImage": "./assets/images/home/business-growth-details.jpg"
+  "detailaImage": "./assets/images/home/business-growth.jpg"
   },
   {
     "title": "Iconic Branding",
     "description": [
       {
-        "content": "Iconic brands, that consumers can't help but fall in love with and pay a premium for, are one of the biggest drivers of shareholder value.  "
+        "content": "Iconic brands, that consumers can't help but fall in love with and pay a premium for, are one of the biggest drivers of shareholder value. We help CMOs and their teams craft iconic brand positioning and deploy them brilliantly.  "
       }
 
     ],
-    "heading1":"Iconic brands are a repository of not only functional characteristics but also meaning and value. We help CMOs and their teams craft iconic brand positioning and deploy them brilliantly.",
-    "heading": "Some of the tools we use to craft iconic brands are given below:",
+    "heading1":"Iconic brands are a repository of not only functional characteristics but also meaning and value. Some of the tools we use to craft iconic brands are given below:",
     "consulting":[
       {"content": "Brand audit facilitation "},
       {"content": "Consumer, social, and environmental insight mining"},
@@ -113,7 +113,7 @@
 }
     ],
     "image": "./assets/images/home/agile.jpg",
-    "detailaImage": "./assets/images/home/agile-details.jpg"
+    "detailaImage": "./assets/images/home/agile.jpg"
 
   },
   {
