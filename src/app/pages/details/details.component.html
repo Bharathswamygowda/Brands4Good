@@ -47,13 +47,13 @@
 
       <div class="col-lg-3 d-grid align-items-stretch mb-4" *ngFor="let item of details.examples; let even = even">
 
-          <!-- <div class="examples-card {{even ? 'even-color': 'odd-color'}}" (click)="presentModal(item)">
+          <div class="examples-card {{even ? 'even-color': 'odd-color'}}" (click)="presentModal(item)">
             <div class="examples-card_container">
               {{item.content}}
             </div>
-          </div> -->
+          </div>
 
-          <button (click)="presentModal(item)" ngClass="custom-btn" [class]="even ? 'custom-btn-1 style-01' : 'custom-btn-2 style-02'"><span>{{item.content}}</span></button>
+          <!-- <button (click)="presentModal(item)" ngClass="custom-btn" [class]="even ? 'custom-btn-1 style-01' : 'custom-btn-2 style-02'"><span>{{item.content}}</span></button> -->
 
 
 
